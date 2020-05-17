@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LemonTest.EntityFramework\LemonTest.EntityFramework.csproj" />
+    <ProjectReference Include="..\LemonTest.Model\LemonTest.Model.csproj" />
+  </ItemGroup>
+
+</Project>
