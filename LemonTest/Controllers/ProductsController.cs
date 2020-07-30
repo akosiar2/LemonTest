@@ -25,7 +25,7 @@ namespace LemonTest.Api.Controllers
         {
             IList<ProductDto> products = await _productService.GetAll();
 
-            return products.ToList();
+            return Ok(products.ToList());
         }
 
         // GET: api/Products/5
@@ -39,7 +39,7 @@ namespace LemonTest.Api.Controllers
                 return NotFound();
             }
 
-            return product;
+            return Ok(product);
         }
 
         // PUT: api/Products/5
